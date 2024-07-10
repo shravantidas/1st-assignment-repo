@@ -40,11 +40,9 @@ body {
 .banner-element .banner-content {
     padding-top: 160px;
 }
-.banner-element.banner-content h3 {
+.banner-element .banner-content h2{
     text-align: center;
-    font-size: 25px;
 }
-
 .banner-element .banner-content p {
     color: rgb(13, 19, 33, 0.7);
     padding-top: 20px;
@@ -139,3 +137,33 @@ text-align: center;
     height: 190px;
 }
 /* why-web style ends here */
+/* inspiration section style starts here */
+.inspiration{
+    margin-top: 150px;
+}
+
+.inspiration-content{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.inspiration-content h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inspiration-content p {
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 11px;
+    text-align: center;
+    margin-bottom:80px;
+}
+
+.inspiration-video iframe{
+    width: 60%;
+border: 1px solid #e1dfdf;
+padding: 20px;
+border-radius: 16px;
+    margin-left:260px;
+}
+
+/* inspiration section style ends here */
