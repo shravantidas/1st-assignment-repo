@@ -248,3 +248,52 @@ text-align: left;
     margin-bottom: 32px;
 }
 /* Current target section style ends here */
+/* need support section style starts here */
+.need-support{
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(../assets/handshake.jpg);
+    border: 2px solid red;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.need-support .content h4{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.need-support .content p{
+    text-align: center;
+    color:#b4b5b7;
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.need-support .input input{
+    padding: 10px 150px 8px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: left; 
+    font-size: 12px;
+}
+.need-support .input input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+}
+.need-support .input button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+/* need support section style ends here */
