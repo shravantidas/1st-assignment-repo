@@ -53,7 +53,7 @@ body {
 
 }
 
-.banner-element .banner-content button {
+.banner-element .banner-content a button{
     color: rgb(255, 255, 255);
     font-size: 16px;
     background-color: black;
@@ -74,7 +74,7 @@ body {
 
 .why-web-content {
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
 
 .why-web-content h3{
@@ -142,12 +142,12 @@ text-align: center;
 /* why-web style ends here */
 /* inspiration section style starts here */
 .inspiration{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .inspiration-content{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 }
 
 .inspiration-content h3 {
@@ -158,7 +158,7 @@ text-align: center;
     color: rgb(13, 19, 33, 0.7);
     font-size: 12px;
     text-align: center;
-    margin-bottom:80px;
+    margin-bottom:60px;
     font-family: "Inter", sans-serif;
 }
 
@@ -173,7 +173,7 @@ border-radius: 16px;
 /* Current target section style starts here */
 
 .current-target{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .current-target-description{
@@ -254,7 +254,6 @@ text-align: left;
     margin: 0 auto;
     background-color: rgba(0,0,0,0.5);
     background-image: url(../assets/handshake.jpg);
-    border: 2px solid red;
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -297,3 +296,28 @@ text-align: left;
     border: none;
 }
 /* need support section style ends here */
+/* footer start */
+.container{
+    margin-top: 50px;
+    background-color:#f7f8f8;
+    display: flex;
+    height: 70px;
+}
+.container .content h4{
+color: rgb(13, 19, 33);
+font-size: 13px;
+font-weight: 600;
+margin-top:35px;
+text-align: center;
+margin-left: 100px;
+}
+.container .icon{
+    margin-left: 680px;
+}
+.container .icon img{
+    width: 25px;
+    height: 25px;
+    margin-top:25px;
+    margin-right:10px;
+}
+/* footer end */
