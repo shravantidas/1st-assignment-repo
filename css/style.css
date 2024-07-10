@@ -1,55 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
 }
-.banner-container{
+
+/* banner style starts here */
+.banner-container {
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 1280px;
-    min-height:550px;
+    min-height: 550px;
+    border-top: 3px dashed rgb(13, 19, 33, 0.1);
+    border-bottom: 3px dashed rgb(13, 19, 33, 0.1);
 }
-.banner-container .banner-image{
+.banner-element{
+    width: 50%;
+    margin: 0 auto;
+}
+.banner-element .banner-image {
     width: 100px;
     height: 100px;
-    margin:0 auto;
+    margin-left: 250px;
     padding-top: 50px;
-    margin-right: 590px;
 }
-.banner-image img{
+
+.banner-image img {
     width: 180px;
     height: 190px;
 }
-.banner-container .banner-content{
- padding-left: 400px;
-padding-top: 160px;
+
+.banner-element .banner-content {
+    padding-top: 160px;
 }
-.banner-container .banner-content h3{
-    padding-right: 240px;
+.banner-element.banner-content h3 {
     text-align: center;
-   font-size: 25px;
+    font-size: 25px;
 }
-.banner-container .banner-content p{
-    color: rgb(13, 19, 33,0.7);
+
+.banner-element .banner-content p {
+    color: rgb(13, 19, 33, 0.7);
     padding-top: 20px;
     font-size: 12px;
-    padding-left: 60px;
-   padding-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+
 }
-.banner-container .banner-content button{
+
+.banner-element .banner-content button {
     color: rgb(255, 255, 255);
     font-size: 16px;
     background-color: black;
     text-align: center;
-    padding:11px 8px;
+    padding: 11px 8px;
     border: none;
     border-radius: 5px;
-    margin-left: 215px;
+ margin-left: 270px;
 }
+
+/* banner style ends here */
+
+/* why-web style starts here */
+
+.why-web {
+    margin-top: 100px;
+}
+
+.why-web-content {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.why-web-content h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.why-web-content p {
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 11px;
+    text-align: center;
+    margin-bottom:100px;
+}
+.why-web-columns{
+    width: 50%;
+    margin: 0 auto;
+}
+.column1,.column2,.column3{
+    display: flex;
+    margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.column1 .row-1-content,.column3 .row-3-content{
+    width: 60%;
+}
+.column2 .row-2-content{
+    width: 80%;
+}
+.column1 .row-1-content h5,.column2 .row-2-content h5,.column3 .row-3-content h5{
+    color: #565a64;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.column1 .row-1-content p,.column2 .row-2-content p,.column3 .row-3-content p{
+    color: rgb(13, 19, 33,0.7);
+font-size: 10px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 20px;
+}
+.column1 .row-1-content a button,.column2 .row-2-content a button,.column3 .row-3-content a button{
+    padding: 10px 30px;
+    color:#565a64;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+text-align: center;
+}
+.row-1-image,.row-3-image{
+    width: 20%;
+    padding-left: 35px;
+}
+.row-2-image{
+    padding-right: 30px;
+}
+.row-1-image img,.row-2-image img,.row-3-image img{
+    width:200px;
+    height: 190px;
+}
+/* why-web style ends here */
